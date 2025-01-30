@@ -1,0 +1,5 @@
+git checkout -b test
+echo "This is a test file for branch comparison." > example.txt
+git add example.txt
+git commit -m "Added example.txt for branch comparison"
+git push -u origin test
